@@ -1,44 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<aiml version="1.0.1">
+<category>
+    <pattern>WHAT DOES THIS DASHBOARD DO</pattern>
+    <template>
+        This dashboard analyzes social media usage data using charts, analytics, and visual insights.
+    </template>
+</category>
 
-    <category>
-        <pattern>AVERAGE TIME ON INSTAGRAM</pattern>
-        <template>QUERY_AVG_TIME_Instagram</template>
-    </category>
+<category>
+    <pattern>HOW DOES IT WORK</pattern>
+    <template>
+        The dashboard uses Python, Streamlit, Plotly, and AIML chatbot integration to analyze social media data interactively.
+    </template>
+</category>
 
-    <category>
-        <pattern>AVERAGE TIME ON FACEBOOK</pattern>
-        <template>QUERY_AVG_TIME_Facebook</template>
-    </category>
+<category>
+    <pattern>WHAT IS SOCIAL MEDIA ANALYTICS</pattern>
+    <template>
+        Social media analytics involves collecting and analyzing data from social media platforms to understand user behavior and engagement.
+    </template>
+</category>
 
-    <category>
-        <pattern>AVERAGE TIME ON TIKTOK</pattern>
-        <template>QUERY_AVG_TIME_TikTok</template>
-    </category>
+<category>
+    <pattern>WHICH APP IS MOST POPULAR</pattern>
+    <template>
+        Based on the dataset analysis, Snapchat has one of the highest user counts.
+    </template>
+</category>
 
-    <category>
-        <pattern>AVERAGE LIKES ON INSTAGRAM</pattern>
-        <template>QUERY_AVG_LIKES_Instagram</template>
-    </category>
+<category>
+    <pattern>WHAT TECHNOLOGIES ARE USED</pattern>
+    <template>
+        This project uses Python, Streamlit, Pandas, Plotly, Matplotlib, and AIML.
+    </template>
+</category>
 
-    <category>
-        <pattern>AVERAGE LIKES ON TIKTOK</pattern>
-        <template>QUERY_AVG_LIKES_TikTok</template>
-    </category>
+<category>
+    <pattern>WHO CREATED YOU</pattern>
+    <template>
+        I was created by Spurthi Raj as part of a social media analytics dashboard project.
+    </template>
+</category>
 
-    <category>
-        <pattern>MOST POPULAR APP</pattern>
-        <template>QUERY_MOST_POPULAR</template>
-    </category>
+<category>
+    <pattern>HELLO</pattern>
+    <template>
+        Hello! How can I help you with social media analytics today?
+    </template>
+</category>
 
-    <category>
-        <pattern>MAX POSTS ON INSTAGRAM</pattern>
-        <template>QUERY_MAX_POSTS_Instagram</template>
-    </category>
+<category>
+    <pattern>HI</pattern>
+    <template>
+        Hi there! Ask me anything about the dashboard or analytics.
+    </template>
+</category>
 
-    <category>
-        <pattern>MAX POSTS ON FACEBOOK</pattern>
-        <template>QUERY_MAX_POSTS_Facebook</template>
-    </category>
-
-</aiml>
+<category>
+    <pattern>*</pattern>
+    <template>
+        Sorry, I don't understand that question. Please ask about social media analytics or the dashboard.
+    </template>
+</category>

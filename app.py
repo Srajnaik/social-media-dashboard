@@ -10,7 +10,17 @@ import aiml
 import os
 import re
 import plotly.express as px
+import time
 
+if not hasattr(time, "clock"):
+    time.clock = time.perf_counter
+
+# AIML setup
+kernel = aiml.Kernel()
+kernel.learn("brain.aiml")
+
+# Streamlit app starts
+st.title("Social Media Analytics Dashboard")
 # ---------------------------------------------------
 # PAGE SETTINGS
 # ---------------------------------------------------
@@ -139,6 +149,15 @@ with chart2:
 
     st.plotly_chart(fig2, use_container_width=True)
 
+
+if not hasattr(time, "clock"):
+    time.clock = time.perf_counter
+
+# Initialize AIML kernel
+kernel = aiml.Kernel()
+
+# Load AIML brain file
+kernel.learn("brain.aiml")
 # ---------------------------------------------------
 # CHATBOT
 # ---------------------------------------------------
