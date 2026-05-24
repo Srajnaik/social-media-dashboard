@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1">
+
+    <category>
+        <pattern>AVERAGE TIME ON INSTAGRAM</pattern>
+        <template>QUERY_AVG_TIME_Instagram</template>
+    </category>
+
+    <category>
+        <pattern>AVERAGE TIME ON FACEBOOK</pattern>
+        <template>QUERY_AVG_TIME_Facebook</template>
+    </category>
+
+    <category>
+        <pattern>AVERAGE TIME ON TIKTOK</pattern>
+        <template>QUERY_AVG_TIME_TikTok</template>
+    </category>
+
+    <category>
+        <pattern>AVERAGE LIKES ON INSTAGRAM</pattern>
+        <template>QUERY_AVG_LIKES_Instagram</template>
+    </category>
+
+    <category>
+        <pattern>AVERAGE LIKES ON TIKTOK</pattern>
+        <template>QUERY_AVG_LIKES_TikTok</template>
+    </category>
+
+    <category>
+        <pattern>MOST POPULAR APP</pattern>
+        <template>QUERY_MOST_POPULAR</template>
+    </category>
+
+    <category>
+        <pattern>MAX POSTS ON INSTAGRAM</pattern>
+        <template>QUERY_MAX_POSTS_Instagram</template>
+    </category>
+
+    <category>
+        <pattern>MAX POSTS ON FACEBOOK</pattern>
+        <template>QUERY_MAX_POSTS_Facebook</template>
+    </category>
+
+</aiml>
