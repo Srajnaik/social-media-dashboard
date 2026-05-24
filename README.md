@@ -89,7 +89,7 @@ streamlit run app.py
 Add your deployed Streamlit link here:
 
 ```bash
-https://social-media-dashboard.streamlit.app
+https://social-media-dashboard-analysis.streamlit.app
 ```
 
 ---
