@@ -197,6 +197,6 @@ Compares engagement levels across social media platforms.
 **Spurthi Raj**
 
 - GitHub: https://github.com/Srajnaik
-- LinkedIn: https://www.linkedin.com/in/spurthi-raj-90b4a2404
+- LinkedIn: https://www.linkedin.com/in/s-rajnaik07
 
 ---
